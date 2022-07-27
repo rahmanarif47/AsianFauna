@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F25753F2891D49400808CD8 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F25753E2891D49400808CD8 /* LocationModel.swift */; };
+		7F2575412891D7C900808CD8 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2575402891D7C900808CD8 /* MapAnnotationView.swift */; };
 		7FAFD294288D4A94006712DC /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAFD293288D4A94006712DC /* CoverImageView.swift */; };
 		7FAFD297288D4CA7006712DC /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAFD296288D4CA7006712DC /* CoverImageModel.swift */; };
 		7FAFD29A288D4EC9006712DC /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAFD299288D4EC9006712DC /* CodableBundleExtension.swift */; };
@@ -105,6 +107,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F25753E2891D49400808CD8 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		7F2575402891D7C900808CD8 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		7FAFD293288D4A94006712DC /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 		7FAFD296288D4CA7006712DC /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
 		7FAFD299288D4EC9006712DC /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
@@ -184,6 +188,7 @@
 				7FAFD296288D4CA7006712DC /* CoverImageModel.swift */,
 				7FAFD29D288D6DC7006712DC /* AnimalModel.swift */,
 				7FB1C83D288E930F0084087A /* VideoModel.swift */,
+				7F25753E2891D49400808CD8 /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -309,6 +314,7 @@
 				7FB1C83B288E90D70084087A /* ExternalWebLinkView.swift */,
 				7FB1C83F288E93880084087A /* VideoListItemView.swift */,
 				7FB1C841288E98D00084087A /* VideoPlayerView.swift */,
+				7F2575402891D7C900808CD8 /* MapAnnotationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -514,9 +520,11 @@
 				7FD47F0928886799001E1596 /* MapView.swift in Sources */,
 				7FAFD29E288D6DC7006712DC /* AnimalModel.swift in Sources */,
 				7FAFD297288D4CA7006712DC /* CoverImageModel.swift in Sources */,
+				7F25753F2891D49400808CD8 /* LocationModel.swift in Sources */,
 				7FD47EA52888604A001E1596 /* Sundanese.xcdatamodeld in Sources */,
 				7FD47EA22888604A001E1596 /* Persistence.swift in Sources */,
 				7FB1C83C288E90D70084087A /* ExternalWebLinkView.swift in Sources */,
+				7F2575412891D7C900808CD8 /* MapAnnotationView.swift in Sources */,
 				7FD47E9B28886048001E1596 /* ContentView.swift in Sources */,
 				7FB1C845288E99A90084087A /* VideoPlayerHelper.swift in Sources */,
 				7FD47E9928886048001E1596 /* SundaneseApp.swift in Sources */,
